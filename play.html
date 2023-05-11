@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>snake water and gun game</title>
+  <link rel="stylesheet" href="desplay.css">
+  <link rel="icon" href="./image/logo.png" type="image/x-icon">
+
+</head>
+<body>
+   <!-- section1 -->
+   <form>
+
+     <div  id="section1" class="container1">
+    <div  class="container1-play">
+      <p class="text">Enter any one from Snake, Water and Gun</p>
+      <p class="text"> S= Snake, W= Water, G= Gun</p>
+      <div class="col">
+        <input type="text" for="field"id="field" class="form-control" placeholder="Enter any from S,W,G" required>
+      </div>
+     </div>
+    <button type="submit" class="btn btn-primary" id="note-submit" >Submit</button>
+  </div>
+</form>
+
+  <!-- section2 -->
+    <div id="section2" class="container2">
+       <img src="./gif/ZKZg.gif" alt="Flowers in Chania" width="150" height="150">
+       <P id="lo-text">Please wait loading.....</P>
+   </div>
+
+
+         <!-- section3 -->
+   <div id="section3" class="container3-main">
+      <div id="main-section1" class="container3-base">
+          <img src="./gif/msanke.gif" alt="Flowers in Chania" width="150" height="150">
+       </div>
+       <div id="main-section2" class="container3-base">
+         <img src="./gif/ppp.webp" alt="Flowers in Chania" width="150" height="150">
+        </div>
+        <div id="main-section3" class="container3-base">
+          <img src="./gif/cool-gun.gif" alt="Flowers in Chania" width="150" height="150">
+        </div>
+  </div>
+  
+  <!-- section-5 -->
+  <div id="section5" class="container5">
+    <P id="demo"></P >
+    <P id="demo1"></P >
+    <P id="demo2"></P >
+  </div>
+
+  <!-- section4 -->
+     <div id="section4" class="message">
+      <div id="div-message">
+        <p id="message-text">Following are the rules of the game: </p>
+        <p id="message-text"><b>Snake vs. Water</b>: Snake drinks the water hence wins.<br>
+          <b>Water vs. Gun:</b> The gun will drown in water, hence a point for water.<br>
+          <b>Gun vs. Snake:</b> Gun will kill the snake and win. </p><br>
+          <p id="message-text" class="text-play"><b>Click on button Play to again:</b> </p>
+        <!-- <h5></h5> -->
+         </div>
+      
+       <div id="play-submit">
+        <button onclick="window.location.href = 'play.html';" type="submit" class="btn btn-primary" id="sub-play-main-btn" >Play Again</button>
+        <button onclick="window.location.href = 'head.html';" type="submit" class="btn btn-primary" id="sub-play-main-btn" >Start</button>
+      </div>
+     
+    </div>
+
+<script src="jppswg.js"></script>
+
+</body>
+
+</html>
